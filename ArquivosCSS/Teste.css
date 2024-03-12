@@ -20,9 +20,7 @@ body {
 
 #AtivaBotoesFundo {
     display: none;
-    flex-direction: column;
     position: absolute;
-    top: 310px;
     left: -100px;
 }
 
