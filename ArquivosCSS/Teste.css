@@ -22,12 +22,12 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: -150px;
+    top: -200px;
     left: -100px;
 }
 
 
-.BG1, .BG2, .BG3, .BG4, .BotaoCategoriaQuarto {
+.BG1, .BG2, .BG3, .BG4, .BG5, .BotaoCategoriaQuarto {
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -48,6 +48,9 @@ body {
 }
 .BG4 {
     background-image: url('../Imagens/Background/background-20.png');
+}
+.BG5 {
+    background-image: url('../Imagens/Background/background-05.png');
 }
 .BotaoCategoriaQuarto {
     background-image: url('../Imagens/Icons/quarto.png');
