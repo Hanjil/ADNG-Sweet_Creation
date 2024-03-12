@@ -66,3 +66,7 @@ body {
     border: none;
     cursor: pointer;
 }
+.ContainerBotoesBG {
+    display: flex;
+    flex-direction: column;
+}
