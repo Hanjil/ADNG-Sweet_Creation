@@ -20,8 +20,6 @@ body {
 
 #AtivaBotoesFundo {
     display: none;
-    top: 300px;
-    left: -100px;
 }
 
 
@@ -32,8 +30,6 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 50px;
-    display: block;
-    margin-bottom: 5px;
 }
 .BG1 {
     background-image: url('../Imagens/Background/background-03.png');
