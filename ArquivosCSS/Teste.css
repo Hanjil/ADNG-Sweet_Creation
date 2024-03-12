@@ -21,3 +21,35 @@ body {
 #AtivaBotoesFundo {
     display: none;
 }
+.BG1 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../Imagens/Background/background-03.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.BG2 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../Imagens/Background/background-15.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.BG3 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../Imagens/Background/background-18.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.BG4 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../Imagens/Background/background-20.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
