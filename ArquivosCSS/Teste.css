@@ -13,8 +13,8 @@ body {
 }
 #Botoes {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 10px;
+    left: 10px;
     z-index: 2;
 }
 
@@ -22,8 +22,8 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: -10%;
-    left: 20%;
+    top: -10px;
+    left: 20px;
 }
 
 
