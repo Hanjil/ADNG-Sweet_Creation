@@ -22,8 +22,8 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: -10%;
+    left: 20%;
 }
 
 
