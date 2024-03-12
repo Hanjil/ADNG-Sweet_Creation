@@ -8,10 +8,15 @@
 </head>
 <body>
     <div id="Botoes">
-        <button onclick="ProximoBG('Imagens/Background/background-03.png')">BG1</button>
-        <button onclick="ProximoBG('Imagens/Background/background-15.png')">BG2</button>
-        <button onclick="ProximoBG('Imagens/Background/background-18.png')">BG3</button>
-        <button onclick="ProximoBG('Imagens/Background/background-20.png')">BG4</button>
+        <div id="BotoesFundo">
+            <button onclick="toggleBotoesFundo()">Cenarios</button>
+            <div id="AtivaBotoesFundo">
+                <button onclick="ProximoBG('Imagens/Background/background-03.png')">BG1</button>
+                <button onclick="ProximoBG('Imagens/Background/background-15.png')">BG2</button>
+                <button onclick="ProximoBG('Imagens/Background/background-18.png')">BG3</button>
+                <button onclick="ProximoBG('Imagens/Background/background-20.png')">BG4</button>
+            </div>
+        </div>
     </div>
     
     <img id="Fundo" src="Imagens/Background/background-20.png">
@@ -20,6 +25,10 @@
         function ProximoBG(fileName) {
             var BGSelecionado = fileName;
             document.getElementById('Fundo').src = fileName;
+        }
+        function toggleBotoesFundo() {
+            var Fundos = document.getElementById("AtivaBotoesFundo");
+            Fundos.style.display = (Fundos.style.display === "block") ? "none" : "block";
         }
     </script>
 </body>
