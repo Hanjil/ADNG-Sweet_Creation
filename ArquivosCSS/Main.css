@@ -5,6 +5,10 @@ body {
     position: relative;
 }
 
+button {
+    margin: 3px;
+}
+
 .Margem {
     margin: 5px;
 }
