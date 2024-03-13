@@ -22,7 +22,11 @@
 }
 
 
-.BG1, .BG2, .BG3, .BG4, .BG5, .BotaoCategoriaQuarto {
+.BG1, .BG2, .BG3, .BG4, .BG5,
+.BG6, .BG7, .BG8, .BG9, .BG10,
+.BG11, .BG12, .BG13, .BG14, .BG15,
+.BG16, .BG17, .BG18, .BG19, .BG20,
+.BotaoCategoriaQuarto {
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -30,9 +34,24 @@
     cursor: pointer;
     border-radius: 50px;
 }
-.BG1 { background-image: url('../Imagens/Background/background-03.png');}
-.BG2 {background-image: url('../Imagens/Background/background-15.png');}
-.BG3 {background-image: url('../Imagens/Background/background-18.png');}
-.BG4 {background-image: url('../Imagens/Background/background-20.png');}
+.BG1 {background-image: url('../Imagens/Background/background-01.png');}
+.BG2 {background-image: url('../Imagens/Background/background-02.png');}
+.BG3 {background-image: url('../Imagens/Background/background-03.png');}
+.BG4 {background-image: url('../Imagens/Background/background-04.png');}
 .BG5 {background-image: url('../Imagens/Background/background-05.png');}
+.BG6 {background-image: url('../Imagens/Background/background-06.png');}
+.BG7 {background-image: url('../Imagens/Background/background-07.png');}
+.BG8 {background-image: url('../Imagens/Background/background-08.png');}
+.BG9 {background-image: url('../Imagens/Background/background-09.png');}
+.BG10 {background-image: url('../Imagens/Background/background-10.png');}
+.BG11 {background-image: url('../Imagens/Background/background-11.png');}
+.BG12 {background-image: url('../Imagens/Background/background-12.png');}
+.BG13 {background-image: url('../Imagens/Background/background-13.png');}
+.BG14 {background-image: url('../Imagens/Background/background-14.png');}
+.BG15 {background-image: url('../Imagens/Background/background-15.png');}
+.BG16 {background-image: url('../Imagens/Background/background-16.png');}
+.BG17 {background-image: url('../Imagens/Background/background-17.png');}
+.BG18 {background-image: url('../Imagens/Background/background-18.png');}
+.BG19 {background-image: url('../Imagens/Background/background-19.png');}
+.BG20 {background-image: url('../Imagens/Background/background-20.png');}
 .BotaoCategoriaQuarto {background-image: url('../Imagens/Icons/quarto.png');}
