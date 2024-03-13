@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.Margem {
+    margin: 5px;
+}
+.MargemInterna {
+    margin: 5px;
+}

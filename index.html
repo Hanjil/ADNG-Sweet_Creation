@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ArquivosCSS/Teste.css">
+    <link rel="stylesheet" href="ArquivosCSS/Main.css">
+    <link rel="stylesheet" href="ArquivosCSS/Fundos.css">
     <title>Sweet Creation</title>
 </head>
 <body>
     <div id="Botoes">
         <div id="BotoesFundo">
             <button class="BotaoCategoriaQuarto" onclick="toggleBotoesFundo()"></button>
-            <div id="AtivaBotoesFundo">
-                <button class="BG1" onclick="ProximoBG('Imagens/Background/background-03.png')"></button>
-                <button class="BG2" onclick="ProximoBG('Imagens/Background/background-15.png')"></button>
-                <button class="BG3" onclick="ProximoBG('Imagens/Background/background-18.png')"></button>
-                <button class="BG4" onclick="ProximoBG('Imagens/Background/background-20.png')"></button>
-                <button class="BG5" onclick="ProximoBG('Imagens/Background/background-05.png')"></button>
+            <div id="AtivaBotoesFundo"  class="Margem">
+                <div class="MargemInterna">
+                    <button class="BG1" onclick="ProximoBG('Imagens/Background/background-03.png')"></button>
+                    <button class="BG2" onclick="ProximoBG('Imagens/Background/background-15.png')"></button>
+                    <button class="BG3" onclick="ProximoBG('Imagens/Background/background-18.png')"></button>
+                    <button class="BG4" onclick="ProximoBG('Imagens/Background/background-20.png')"></button>
+                    <button class="BG5" onclick="ProximoBG('Imagens/Background/background-05.png')"></button>
+                </div>
             </div>
         </div>
     </div>
-    
+
     <img id="Fundo" src="Imagens/Background/background-20.png">
 
     <script src="ArquivosJS/Teste.js"></script>
