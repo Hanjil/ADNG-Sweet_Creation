@@ -28,3 +28,22 @@ button:hover, button:focus {
 .MargemInterna {
     margin: 5px;
 }
+
+#Pele, #Roupa {
+    width: 50%; /* ou qualquer porcentagem desejada - Pra newcete é 50%*/
+    height: auto;
+    position: absolute; /* Manter a posição absoluta */
+    top: 50%; /* Ajustar conforme necessário */
+    left: 50%; /* Ajustar conforme necessário */
+    transform: translate(-50%, -103%); /* Centralizar as imagens */
+}
+#Newcete {
+    position: relative; /* Certifique-se de que o contêiner tenha uma posição relativa */
+    z-index: 2;
+}
+#Pele {
+    z-index: 3;
+}
+#Roupa {
+    z-index: 4;
+}
