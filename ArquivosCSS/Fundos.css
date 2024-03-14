@@ -5,18 +5,12 @@
     position: relative;
     z-index: 1;
 }
-#Botoes {
-    position: absolute;
-    top: 50px;
-    left: 55%;
-    z-index: 5;
-}
 
 #AtivaBotoesFundo {
     display: none;
     position: relative;
     top: -100px;
-    left: 105px;
+    left: 215px;
     background-color: rgba(222, 184, 135, 0.7);
     border-radius: 10px;
 }

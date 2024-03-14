@@ -7,6 +7,19 @@ body {
 
 button {
     margin: 3px;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover, button:focus {
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+}
+
+#Botoes {
+    position: absolute;
+    top: 50px;
+    left: 55%;
+    z-index: 5;
 }
 
 .Margem {
@@ -14,23 +27,4 @@ button {
 }
 .MargemInterna {
     margin: 5px;
-}
-
-#Pele, #Roupa {
-    width: 50%; /* ou qualquer porcentagem desejada */
-    height: auto;
-    position: absolute; /* Manter a posição absoluta */
-    top: 50%; /* Ajustar conforme necessário */
-    left: 50%; /* Ajustar conforme necessário */
-    transform: translate(-50%, -103%); /* Centralizar as imagens */
-}
-#Newcete {
-    position: relative; /* Certifique-se de que o contêiner tenha uma posição relativa */
-    z-index: 2;
-}
-#Pele {
-    z-index: 3;
-}
-#Roupa {
-    z-index: 4;
 }
