@@ -10,7 +10,7 @@ button {
     transition: transform 200ms ease-in-out;
 }
 
-button:hover, button:focus {
+button:hover {
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
 }
