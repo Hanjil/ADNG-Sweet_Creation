@@ -43,10 +43,10 @@ function desenharCanvas() {
         carregarImagem(TakiSelecionada)
     ]).then((imagens) => {
         imagens.forEach((img, index) => {
-            if (index === 1) {
+            if (index === 0) {
                 ctx.drawImage(img, 0, 0, undefined, canvas.height);
             } else if (index === 6) {
-                ctx.drawImage(img, 100, 100, canvas.width, canvas.height);
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             } else {
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             }
