@@ -50,7 +50,7 @@ function desenharCanvas() {
                 const proporcao = img.width / img.height;
                 const novaAltura = 900;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 1100, 1500, novaLargura, novaAltura);
+                ctx.drawImage(img, 110, 150, novaLargura, novaAltura);
             } else {
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             }
