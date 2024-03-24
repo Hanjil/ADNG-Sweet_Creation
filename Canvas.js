@@ -5,13 +5,13 @@ document.getElementById("formNome").addEventListener("submit", function(event) {
     console.log("Nome inserido: " + nome);
 });
 
-let FundoSelecionado = 'https://www.amordoce-newgen.com/assets/disconnected/customization/background-01.webp';
-let CabeloTrasSelecionado = 'blank.png';
-let PeleSelecionado = 'https://www.amordoce-newgen.com/assets/disconnected/customization/avatars/skin-05.webp';
-let RoupaSelecionada = 'blank.png';
-let CabeloFrenteSelecionado = 'blank.png';
-let AccSelecionado = 'blank.png';
-let TakiSelecionado = 'blank.png';
+let FundoSelecionado = 'Imagens/Background/background-01.png';
+let CabeloTrasSelecionado = 'Imagens/blank.png';
+let PeleSelecionado = 'Imagens/Peles/skin-05.png';
+let RoupaSelecionada = 'Imagens/blank.png';
+let CabeloFrenteSelecionado = 'Imagens/blank.png';
+let AccSelecionado = 'Imagens/blank.png';
+let TakiSelecionado = 'Imagens/blank.png';
 
 const canvas = document.getElementById('canvas');
 canvas.width = 1200;
@@ -58,7 +58,7 @@ function desenharCanvas() {
         ctx.drawImage(imgTaki, 0, 0, canvas.width, canvas.height);
     };
 
-    if (AccSelecionado !== 'blank.png') {
+    if (AccSelecionado !== 'Imagens/blank.png') {
         const imgAcc = new Image();
         imgAcc.src = AccSelecionado;
         imgAcc.onload = function() {
