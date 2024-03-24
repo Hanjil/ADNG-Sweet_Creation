@@ -45,12 +45,12 @@ function desenharCanvas() {
                 const proporcao = img.width / img.height;
                 const novaAltura = canvas.height;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 100, 0, novaLargura, novaAltura);
+                ctx.drawImage(img, 0, 100, novaLargura, novaAltura);
             } else if (index === 6) {
                 const proporcao = img.width / img.height;
                 const novaAltura = 900;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 210, 250, novaLargura, novaAltura);
+                ctx.drawImage(img, 310, 350, novaLargura, novaAltura);
             } else {
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             }
@@ -61,7 +61,7 @@ function desenharCanvas() {
 function BaixarCanvas() {
     const canvas = document.getElementById('canvas');
     const dataURL = canvas.toDataURL("image/png");
-    const nome = document.getElementById('nome').value;
+    const nome = nomeUsuario.trim() !== '' ? nomeUsuario : 'Ysaline';
     const link = document.createElement('a');
     link.href = dataURL;
     link.download = nome + '.png';
