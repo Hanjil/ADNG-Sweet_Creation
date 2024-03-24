@@ -44,16 +44,21 @@ function desenharCanvas() {
     ]).then((imagens) => {
         imagens.forEach((img, index) => {
             if (index === 0) {
-                ctx.drawImage(img, 0, 0, undefined, canvas.height);
+                const proporcao = img.width / img.height;
+                const novaAltura = canvas.height;
+                const novaLargura = novaAltura * proporcao;
+                ctx.drawImage(img, 0, 0, novaLargura, novaAltura);
             } else if (index === 6) {
-                ctx.drawImage(img, 100, 100, 500, undefined);
+                const proporcao = img.width / img.height;
+                const novaAltura = canvas.height;
+                const novaLargura = novaAltura * proporcao;
+                ctx.drawImage(img, 100, 100, novaLargura, novaAltura);
             } else {
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             }
         });
     });
 }
-
 
 function BaixarCanvas() {
     const canvas = document.getElementById('canvas');
