@@ -1,0 +1,74 @@
+.Fundo {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.Docete {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.Sprite {
+    width: 50%; /* ou qualquer porcentagem desejada - Pra newcete é 50%*/
+    height: auto;
+    position: absolute; /* Manter a posição absoluta */
+    top: 50%; /* Ajustar conforme necessário */
+    left: 50%; /* Ajustar conforme necessário */
+    transform: translate(-50%, -103%); /* Centralizar as imagens */
+}
+.SpriteTaki {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -103%);
+}
+
+
+
+.BotaoCategoriaEsquerda {
+    position: relative;
+    left: 20px;
+}
+.BotaoCategoriaDireita {
+    position: relative;
+    left: 380px;
+}
+.BotaoOpcaoEsquerda {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.BotaoOpcaoDireita {
+    position: relative;
+    left: 930px;
+    top: 5px;
+}
+
+
+
+.Cabeca, .Fundos,
+.Peles, .Roupa,
+.AvisoD, .AvisoE,
+.Taki,
+.CabelosTras, .CabelosFrente,
+.CabeloT1, .CabeloT2, .CabeloT3, .CabeloT4, .CabeloT5,
+.CabeloT6, .CabeloT7, .CabeloT8, .CabeloT9, .CabeloT10,
+.CabeloF1, .CabeloF2, .CabeloF3, .CabeloF4, .CabeloF5,
+.CabeloF6, .CabeloF7, .CabeloF8, .CabeloF9, .CabeloF10, .CabeloF11, .CabeloF12,
+.Chapeus, .Nome {
+    display: none;
+}
+
+.AvisoD, .AvisoE {
+    width: 550px;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.9);
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    overflow: hidden;
+}
+button {
+    margin: 3px;
+    transition: transform 200ms ease-in-out;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border: none;
+    background-color: rgba(247, 229, 206, 0.8);
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(247, 229, 206);
+    transition: transform 200ms ease-in-out;
+}
+#Botoes {
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+}
+
+label {
+    background-color: rgba(247, 229, 206, 0.8);
+    border-radius: 10px;
+    width: 260px;
+    font-weight: bold;
+    font-size: larger;
+    color: #000000;
+    display: block; /* Isso faz com que o label ocupe toda a largura disponível */
+}
+
+/* Estilo do input */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px; /* Isso faz com que o input ocupe toda a largura do seu contêiner */
+    box-sizing: border-box; /* Isso garante que o padding não aumente a largura total do input */
+}
