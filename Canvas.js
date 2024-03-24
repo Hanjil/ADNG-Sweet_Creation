@@ -42,11 +42,16 @@ function desenharCanvas() {
         carregarImagem(AccSelecionado),
         carregarImagem(TakiSelecionada)
     ]).then((imagens) => {
-        imagens.forEach((img) => {
-            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        imagens.forEach((img, index) => {
+            if (index === 6) {
+                ctx.drawImage(img, 10, 10, 282, 309);
+            } else {
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+            }
         });
     });
 }
+
 
 function BaixarCanvas() {
     const canvas = document.getElementById('canvas');
