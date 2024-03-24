@@ -45,12 +45,12 @@ function desenharCanvas() {
                 const proporcao = img.width / img.height;
                 const novaAltura = canvas.height;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 0, 0, novaLargura, novaAltura);
+                ctx.drawImage(img, 100, 0, novaLargura, novaAltura);
             } else if (index === 6) {
                 const proporcao = img.width / img.height;
                 const novaAltura = 900;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 110, 150, novaLargura, novaAltura);
+                ctx.drawImage(img, 210, 250, novaLargura, novaAltura);
             } else {
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
             }
