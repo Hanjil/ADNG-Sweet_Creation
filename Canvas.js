@@ -6,12 +6,12 @@ document.getElementById("formNome").addEventListener("submit", function(event) {
 });
 
 let FundoSelecionado = 'Imagens/Background/background-01.png';
-let CabeloTrasSelecionado = 'Imagens/blank.png';
-let PeleSelecionado = 'Imagens/Peles/skin-05.png';
+let CabeloTSelecionado = 'Imagens/blank.png';
+let PeleSelecionada = 'Imagens/Peles/skin-05.png';
 let RoupaSelecionada = 'Imagens/blank.png';
-let CabeloFrenteSelecionado = 'Imagens/blank.png';
+let CabeloFSelecionado = 'Imagens/blank.png';
 let AccSelecionado = 'Imagens/blank.png';
-let TakiSelecionado = 'Imagens/blank.png';
+let TakiSelecionada = 'Imagens/blank.png';
 
 const canvas = document.getElementById('canvas');
 canvas.width = 1200;
@@ -35,12 +35,12 @@ function desenharCanvas() {
 
     Promise.all([
         carregarImagem(FundoSelecionado),
-        carregarImagem(CabeloTrasSelecionado),
-        carregarImagem(PeleSelecionado),
+        carregarImagem(CabeloTSelecionado),
+        carregarImagem(PeleSelecionada),
         carregarImagem(RoupaSelecionada),
-        carregarImagem(CabeloFrenteSelecionado),
+        carregarImagem(CabeloFSelecionado),
         carregarImagem(AccSelecionado),
-        carregarImagem(TakiSelecionado)
+        carregarImagem(TakiSelecionada)
     ]).then((imagens) => {
         imagens.forEach((img) => {
             ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
