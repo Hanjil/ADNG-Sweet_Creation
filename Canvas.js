@@ -46,7 +46,7 @@ function desenharCanvas() {
                 const proporcao = img.width / img.height;
                 const novaAltura = canvas.height;
                 const novaLargura = novaAltura * proporcao;
-                ctx.drawImage(img, 0, 0, novaLargura, novaAltura);
+                ctx.drawImage(img, 500, 0, novaLargura, novaAltura);
             } else if (index === 6) {
                 const proporcao = img.width / img.height;
                 const novaAltura = 900;
