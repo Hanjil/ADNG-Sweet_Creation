@@ -1,6 +1,7 @@
 document.getElementById("formNome").addEventListener("submit", function(event) {
     event.preventDefault();
     var nome = document.getElementById("nome").value;
+    BaixarCanvas(nome);
 });
 
 let FundoSelecionado = 'Imagens/Background/background-01.png';
@@ -58,7 +59,7 @@ function desenharCanvas() {
     });
 }
 
-function BaixarCanvas() {
+function BaixarCanvas(nomeUsuario) {
     const canvas = document.getElementById('canvas');
     const dataURL = canvas.toDataURL("image/png");
     const nome = nomeUsuario.trim() !== '' ? nomeUsuario : 'Ysaline';
