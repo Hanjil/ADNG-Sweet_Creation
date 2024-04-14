@@ -1,0 +1,9 @@
+.PassaBotoes {
+    position: relative;
+    display: flex;
+    left: 170px;
+}
+
+.Escondido {
+    display: none;
+}

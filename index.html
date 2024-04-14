@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Ids.css">
-    <link rel="stylesheet" href="Classes.css">
-    <link rel="stylesheet" href="ImgsDosBotoes.css">
+    <link rel="stylesheet" href="ArquivosCSS/Classes.css">
+    <link rel="stylesheet" href="ArquivosCSS/Ids.css">
+    <link rel="stylesheet" href="ArquivosCSS/ImgsDosBotoes.css">
+    <link rel="stylesheet" href="ArquivosCSS/Teste.css">
+    <script src="ArquivosJS/Canvas.js"></script>
+    <script src="ArquivosJS/Funcao.js"></script>
+    <script src="ArquivosJS/Mudar.js"></script>
+    <script src="ArquivosJS/Teste.js" defer></script>
     <title>Sweet Creations</title>
 </head>
 <body>
@@ -19,7 +24,7 @@
 
             <button class="BotaoCategoriaDireita" onclick="toggleBotoes('Nome')">Nome</button>
             <button class="BotaoCategoriaDireita" onclick="toggleBotoes('AvisoD')">Pernas</button>
-            <button class="BotaoCategoriaDireita" onclick="toggleBotoes('AvisoD')">Braços</button>
+            <button class="BotaoCategoriaDireita" onclick="toggleBotoes('TesteSlider')">Braços</button>
             <button class="BotaoCategoriaDireita" onclick="toggleBotoes('AvisoD')">Pés</button>
             <button class="BotaoCategoriaDireita" onclick="toggleBotoes('Fundos')">Fundo</button>  <!--VAI MUDAR O SITE PRO FUNDO-->
         </div>
@@ -73,9 +78,9 @@
                 <div class="BotaoOpcaoEsquerda CabelosTras">
                     <button onclick="MudarCabeloT('Imagens/blank.png')"></button>
                 </div>
+                
                 <!--CORES CABELO TRAS-->
                     <div class="BotaoOpcaoEsquerda CabeloT1">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras1" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-001.png')">Castanho</button>
                             <button class="CabeloTras12" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-002.png')">Branco</button>
@@ -90,9 +95,9 @@
                             <button class="CabeloTras19" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-009.png')">Ruivo</button>
                             <button class="CabeloTras110" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-010.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT2">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras2" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-011.png')">Castanho</button>
                             <button class="CabeloTras22" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-020.png')">Branco</button>
@@ -107,9 +112,9 @@
                             <button class="CabeloTras29" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-014.png')">Ruivo</button>
                             <button class="CabeloTras210" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-016.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT3">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras3" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-021.png')">Castanho</button>
                             <button class="CabeloTras32" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-022.png')">Branco</button>
@@ -124,9 +129,9 @@
                             <button class="CabeloTras39" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-029.png')">Ruivo</button>
                             <button class="CabeloTras310" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-030.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT4">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras4" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-031.png')">Castanho</button>
                             <button class="CabeloTras42" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-032.png')">Branco</button>
@@ -141,9 +146,9 @@
                             <button class="CabeloTras49" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-039.png')">Ruivo</button>
                             <button class="CabeloTras410" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-040.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT5">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras5" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-041.png')">Castanho</button>
                             <button class="CabeloTras52" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-042.png')">Branco</button>
@@ -158,9 +163,9 @@
                             <button class="CabeloTras59" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-049.png')">Ruivo</button>
                             <button class="CabeloTras510" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-050.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT6">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras6" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-051.png')">Castanho</button>
                             <button class="CabeloTras62" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-052.png')">Branco</button>
@@ -175,9 +180,9 @@
                             <button class="CabeloTras69" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-059.png')">Ruivo</button>
                             <button class="CabeloTras610" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-060.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT7">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras7" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-061.png')">Castanho</button>
                             <button class="CabeloTras72" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-070.png')">Branco</button>
@@ -192,9 +197,9 @@
                             <button class="CabeloTras79" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-064.png')">Ruivo</button>
                             <button class="CabeloTras710" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-062.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT8">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras8" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-081.png')">Castanho</button>
                             <button class="CabeloTras82" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-082.png')">Branco</button>
@@ -209,9 +214,9 @@
                             <button class="CabeloTras89" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-089.png')">Ruivo</button>
                             <button class="CabeloTras810" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-090.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT9">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras9" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-091.png')">Castanho</button>
                             <button class="CabeloTras92" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-092.png')">Branco</button>
@@ -226,9 +231,9 @@
                             <button class="CabeloTras99" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-099.png')">Ruivo</button>
                             <button class="CabeloTras910" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-100.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloT10">
-                        <div><button onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                         <div>
                             <button class="CabeloTras10" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-101.png')">Castanho</button>
                             <button class="CabeloTras102" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-102.png')">Branco</button>
@@ -243,8 +248,10 @@
                             <button class="CabeloTras109" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-109.png')">Ruivo</button>
                             <button class="CabeloTras1010" onclick="MudarCabeloT('Imagens/Cabelos-Tras/back-wig-110.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" onclick="toggleBotoes('CabelosTras')">Voltar</button></div>
                     </div>
-                <!--OPÇÕES DE CABELO FRENTE-->
+                
+                    <!--OPÇÕES DE CABELO FRENTE-->
                 <div class="BotaoOpcaoEsquerda CabelosFrente">
                     <button class="CabeloFrente1" onclick="toggleBotoes('CabeloF1')"></button>
                     <button class="CabeloFrente2" onclick="toggleBotoes('CabeloF2')"></button>
@@ -264,9 +271,9 @@
                     <button class="CabeloFrente12" onclick="toggleBotoes('CabeloF12')"></button>
                     <button onclick="MudarCabeloF('Imagens/blank.png')"></button>
                 </div>
+                
                 <!--CORES CABELO FRENTE-->
                     <div class="BotaoOpcaoEsquerda CabeloF1">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente1" onclick="MudarCabeloF('Imagens/front-wig-001.png')">Castanho</button>
                             <button class="CabeloFrente12" onclick="MudarCabeloF('Imagens/front-wig-002.png')">Branco</button>
@@ -281,9 +288,9 @@
                             <button class="CabeloFrente19" onclick="MudarCabeloF('Imagens/front-wig-009.png')">Ruivo</button>
                             <button class="CabeloFrente110" onclick="MudarCabeloF('Imagens/front-wig-010.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF2">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente2" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-011.png')">Castanho</button>
                             <button class="CabeloFrente22" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-020.png')">Branco</button>
@@ -298,9 +305,9 @@
                             <button class="CabeloFrente29" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-014.png')">Ruivo</button>
                             <button class="CabeloFrente210" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-016.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF3">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente3" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-021.png')">Castanho</button>
                             <button class="CabeloFrente32" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-022.png')">Branco</button>
@@ -315,9 +322,9 @@
                             <button class="CabeloFrente39" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-029.png')">Ruivo</button>
                             <button class="CabeloFrente310" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-030.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF4">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente4" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-031.png')">Castanho</button>
                             <button class="CabeloFrente42" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-032.png')">Branco</button>
@@ -332,9 +339,9 @@
                             <button class="CabeloFrente49" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-039.png')">Ruivo</button>
                             <button class="CabeloFrente410" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-040.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF5">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente5" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-041.png')">Castanho</button>
                             <button class="CabeloFrente52" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-042.png')">Branco</button>
@@ -349,9 +356,9 @@
                             <button class="CabeloFrente59" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-049.png')">Ruivo</button>
                             <button class="CabeloFrente510" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-050.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF6">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente6" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-051.png')">Castanho</button>
                             <button class="CabeloFrente62" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-052.png')">Branco</button>
@@ -366,9 +373,9 @@
                             <button class="CabeloFrente69" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-059.png')">Ruivo</button>
                             <button class="CabeloFrente610" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-060.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF7">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente7" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-061.png')">Castanho</button>
                             <button class="CabeloFrente72" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-070.png')">Branco</button>
@@ -383,9 +390,9 @@
                             <button class="CabeloFrente79" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-064.png')">Ruivo</button>
                             <button class="CabeloFrente710" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-062.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF8">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente8" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-081.png')">Castanho</button>
                             <button class="CabeloFrente82" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-082.png')">Branco</button>
@@ -400,9 +407,9 @@
                             <button class="CabeloFrente89" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-089.png')">Ruivo</button>
                             <button class="CabeloFrente810" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-090.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF9">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente9" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-091.png')">Castanho</button>
                             <button class="CabeloFrente92" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-092.png')">Branco</button>
@@ -417,9 +424,9 @@
                             <button class="CabeloFrente99" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-099.png')">Ruivo</button>
                             <button class="CabeloFrente910" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-100.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF10">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente10" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-101.png')">Castanho</button>
                             <button class="CabeloFrente102" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-102.png')">Branco</button>
@@ -434,9 +441,9 @@
                             <button class="CabeloFrente109" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-109.png')">Ruivo</button>
                             <button class="CabeloFrente1010" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-110.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF11">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente11" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-071.png')">Castanho</button>
                             <button class="CabeloFrente112" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-072.png')">Branco</button>
@@ -451,9 +458,9 @@
                             <button class="CabeloFrente119" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-079.png')">Ruivo</button>
                             <button class="CabeloFrente1110" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-080.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
                     <div class="BotaoOpcaoEsquerda CabeloF12">
-                        <div><button class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                         <div>
                             <button class="CabeloFrente12" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-111.png')">Castanho</button>
                             <button class="CabeloFrente122" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-112.png')">Branco</button>
@@ -468,6 +475,7 @@
                             <button class="CabeloFrente129" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-119.png')">Ruivo</button>
                             <button class="CabeloFrente1210" onclick="MudarCabeloF('Imagens/Cabelos-Frente/front-wig-120.png')">Rosa</button>
                         </div>
+                        <div><button id="BotaoEspecial" class="Voltar1" onclick="toggleBotoes('CabelosFrente')">Voltar</button></div>
                     </div>
 
                 <!--OPÇÕES DE CHAPEUS-->
@@ -605,7 +613,7 @@
                 <form id="formNome">
                     <label for="nome">Digite o nome da sua Newcete:</label>
                     <input type="text" id="nome" name="nome"><br>
-                    <button type="submit">Baixar Newcete</button>
+                    <button id="BotaoEspecial" type="submit">Baixar Newcete</button>
                 </form>
             </div>
             
@@ -614,6 +622,31 @@
                 <h2>Opa Opa</h2>
                 <h2>Por enquanto nãp tem nada aqui!</h2>
                 <h2>Logo vai ter, não se preocupe!</h2>
+            </div>
+
+            <div class="BotaoOpcaoDireita TesteSlider"> <!--TESTE CARROSSEL DE BOTOES-->
+                <div class="Teste1">
+                    <div class="Teste">
+                        <button>Teste1</button>
+                        <button>Teste1</button>
+                        <button>Teste1</button>
+                        <button>Teste1</button>
+                        <button>Teste1</button>
+                    </div>
+                </div>
+                <div class="Teste2">
+                    <div class="Teste Escondido">
+                        <button>Teste2</button>
+                        <button>Teste2</button>
+                        <button>Teste2</button>
+                        <button>Teste2</button>
+                        <button>Teste2</button>
+                    </div>
+                </div>
+                <div class="PassaBotoes">
+                    <button onclick="VoltaGrupo()" id="BotaoAnterior">Anterior</button>
+                    <button onclick="ProxGrupo()"  id="BotaoProximo">Proximo</button>
+                </div>
             </div>
         </div>
     </div>
@@ -629,9 +662,5 @@
     </div>
 
     <canvas id="canvas" style="display: none;"></canvas>
-    
-    <script src="Funcao.js"></script>
-    <script src="Mudar.js"></script>
-    <script src="Canvas.js"></script>
 </body>
 </html>
